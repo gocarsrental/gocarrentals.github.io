@@ -1,0 +1,230 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.servicios {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #5cb85c;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.service-item {
+    margin-bottom: 15px;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.button {
+    display: inline-block;
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #4cae4c;
+} 
+
+
+
+.uno{
+    text-decoration: none;
+    color: black;
+}
+
+.locurita{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+.header {
+background: #007bff;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
+.description {
+padding: 20px;
+text-align: center;
+}
+.benefits, .testimonials, .promotions {
+margin: 20px;
+padding: 20px;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cta {
+text-align: center;
+margin: 20px 0;
+}
+button {
+padding: 10px 20px;
+margin: 5px;
+background: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+background: #0056b3;
+}
+.images-section {
+text-align: center;
+margin: 20px 0;
+}
+img {
+width: 100%;
+max-width: 300px;
+height: auto;
+margin: 10px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+.benefits, .testimonials, .promotions, .description {
+    margin: 10px;
+    padding: 15px;
+}
+button {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+}
+img {
+    width: 80%;
+}
+}
+
+
+
+.contacto {
+    padding: 20px; /* Espacio interior */
+    background-color: #f5f5f5; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 600px; /* Ancho máximo */
+    margin: 20px auto; /* Centrar en la página */
+}
+
+.contacto h2 {
+    text-align: center; /* Centrar el título */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espacio entre campos del formulario */
+}
+
+label {
+    display: block; /* Etiquetas en bloque */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Anchura completa */
+    padding: 10px; /* Padding interno */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+}
+
+button {
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    width: 100%; /* Botón de ancho completo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        padding: 15px; /* Ajustar el padding en móviles */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    button {
+        font-size: 16px; /* Aumentar el tamaño de fuente */
+    }
+}
+ 
